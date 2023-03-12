@@ -11,17 +11,17 @@ const seo = {
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Iván Pineda Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://ivanpineda.com/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Iván Pineda",
+  logo_name: "IvanPineda",
+  nickname: "Carlos Iván Pineda Santiago",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
@@ -738,7 +738,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "https://blogs.ivanpineda.com/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
