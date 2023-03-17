@@ -2,76 +2,44 @@
   "data": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
+      "name": "cryptbot",
       "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "url": "https://github.com/Ivan252512/cryptbot-public",
+      "description": "Binance trading bot",
       "isFork": false,
       "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
         },
         {
           "name": "Shell",
           "iconifyClass": "simple-icons:shell"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Docker",
+          "iconifyClass": "logos-docker"
+        },
+        {
+          "name": "Postgresql",
+          "iconifyClass": "logos-postgresql"
+        },
+        {
+          "name": "Redis",
+          "iconifyClass": "logos-redis"
+        },
+        {
+          "name": "AWS",
+          "iconifyClass": "logos-aws"
         }
       ]
     },
     {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "id": "R_kgDOG_vYHA",
+      "name": "AGSistemaSolar",
+      "createdAt": "2018-06-12T20:41:33Z",
+      "url": "https://github.com/Ivan252512/AGSistemaSolar/blob/master/Latex/TrabajoFinal.pdf",
+      "description": "Solar System orbit's optimizer with Genetic Algorithms",
       "isFork": false,
       "languages": [
         {
@@ -81,34 +49,56 @@
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
-      "name": "react-awesome-loaders",
-      "createdAt": "2021-01-06T06:36:41Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-loaders",
-      "description": "🚀  High quality, super responsive and completely customisable Loading Animations to insert into your website with single line of code.",
+      "id": "R_kgDOG_vYHA",
+      "name": "Computation and Analysis of Geophysical Data",
+      "createdAt": "2018-06-12T20:41:33Z",
+      "url": "https://github.com/Ivan252512/CyADG",
+      "description": "Course scripts",
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Python",
+          "iconifyClass": "logos-python"
         }
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
+      "id": "R_kgDOG_vYHA",
+      "name": "Mares de Papel",
+      "createdAt": "2021-08-12T20:41:33Z",
+      "url": "https://maresdepapel.com/",
+      "description": "QR ticket administrator of the Department of Culture of the City of Mazarrón, Spain.",
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Javascript",
           "iconifyClass": "logos-javascript"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Postgresql",
+          "iconifyClass": "logos-postgresql"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "WSEN Latinoamérica 2018",
+      "createdAt": "2018-06-12T20:41:33Z",
+      "url": "https://wsen-latina.unam.mx",
+      "description": "Student Environmental Summit",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "PHP",
+          "iconifyClass": "logos-php"
+        },
+        {
+          "name": "Javascript",
+          "iconifyClass": "logos-javascript"
         }
       ]
     }

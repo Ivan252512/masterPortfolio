@@ -333,10 +333,10 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
+          title: "Fullstack Developer",
+          company: "GBM",
+          company_url: "https://gbm.com",
+          logo_path: "gbm.png",
           duration: "June 2020 - Aug 2021",
           location: "Hyderabad, Telangana",
           description:
@@ -344,10 +344,10 @@ const experience = {
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
+          title: "Fullstack Developer",
+          company: "Tuhabi",
+          company_url: "https://tuhabi.mx",
+          logo_path: "tuhabi.svg",
           duration: "May 2018 - Oct 2018",
           location: "Pune, Maharashtra",
           description:
@@ -355,10 +355,10 @@ const experience = {
           color: "#9b1578",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
+          title: "AWS Cloud Engineer",
+          company: "Codster",
+          company_url: "https://www.facebook.com/codster.io/",
+          logo_path: "codster.png",
           duration: "Nov 2017 - Dec 2017",
           location: "Ahmedabad, Gujarat",
           description:
