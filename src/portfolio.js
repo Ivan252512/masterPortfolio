@@ -67,53 +67,12 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
-    {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Developing mobile applications using React Native",
+        "⚡ Creating application backend in Node, Python, C# and Java",
       ],
       softwareSkills: [
         {
@@ -121,20 +80,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:html5",
           style: {
             color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -167,24 +112,10 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
             color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
           },
         },
       ],
@@ -195,36 +126,14 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
           },
         },
         {
@@ -251,6 +160,13 @@ const skills = {
         {
           skillName: "Kubernetes",
           fontAwesomeClassname: "simple-icons:kubernetes",
+          style: {
+            color: "#326CE5",
+          },
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
           style: {
             color: "#326CE5",
           },
@@ -283,23 +199,23 @@ const degrees = {
       alt_name: "UNAM",
       duration: "2015 - 2019",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I have studied basic Computer Science subjects to understand Geophysical Data.",
+        "⚡ Apart from this, I have done courses on Calculus, Statistics, Algebra and Physics.",
+        "⚡ I have done my social service at Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS) working on Evolutionary programming.",
       ],
       website_link:
         "https://drive.google.com/file/d/1BnWEohbVmzkTIUQe5n5o3C1J5sgucJvu/view?usp=sharing",
     },
     {
-      title: "Instituto de Estudios Universitario",
+      title: "Instituto de Estudios Universitarios",
       subtitle: "B.Eng. Computer Systems",
       logo_path: "ieu.jpg",
       alt_name: "IEU",
       duration: "2016 - 2020",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ I have studied basic software engineering subjects like Algorithms, Databases, Operating Systems, OOP, etc.",
+        "⚡ Apart from this, I have done courses on Blockchain, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ I have a basic-intermediate specialization in high performance computing with Python.",
       ],
       website_link:
         "https://drive.google.com/file/d/1pizPf-MjvTavBC4qlgPUWFTBFZscDveL/view?usp=sharing",
@@ -326,32 +242,31 @@ const experience = {
   title: "Experience",
   subtitle: "Jobs",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with many companies evolving as a Full Stack Developer and Software Architect. I am very interested in the financial sector.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Fullstack Developer",
+          title: "Full Stack Developer",
           company: "GBM",
           company_url: "https://gbm.com",
           logo_path: "gbm.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+          duration: "May 2022 - Current",
+          location: "Ciudad de México, México",
+          description: "I am working on financial products.",
           color: "#0879bf",
         },
         {
-          title: "Fullstack Developer",
+          title: "Full Stack Developer",
           company: "Tuhabi",
           company_url: "https://tuhabi.mx",
           logo_path: "tuhabi.svg",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          duration: "Nov 2021- May 2022",
+          location: "Ciudad de México, México",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "I have contribuited to create complete application for Real Estate.",
           color: "#9b1578",
         },
         {
@@ -359,10 +274,10 @@ const experience = {
           company: "Codster",
           company_url: "https://www.facebook.com/codster.io/",
           logo_path: "codster.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          duration: "Mar 2020 - Nov 2021",
+          location: "Ciudad de México, México",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+            "In this job I developed applications with Python and AWS Cloud. Mostly, I used Django, Flask, Elastic Beanstalk and Lambdas.",
           color: "#fc1f20",
         },
       ],
@@ -374,7 +289,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Backend projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -436,7 +351,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "yo.webp",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Python, React, API, Cloud and Opensource Development.",
   },
   blogSection: {
     title: "Blogs",

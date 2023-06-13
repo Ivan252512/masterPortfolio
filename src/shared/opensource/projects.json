@@ -35,6 +35,24 @@
       ]
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "cryptbot-analysys",
+      "createdAt": "2023-03-08T16:26:54Z",
+      "url": "https://ivan31416neda.com/cryptbot-analyisis/",
+      "description": "Binance trading bot analysis and trade results",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Javascript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Github",
+          "iconifyClass": "logos-github"
+        }
+      ]
+    },
+    {
       "id": "R_kgDOG_vYHA",
       "name": "AGSistemaSolar",
       "createdAt": "2018-06-12T20:41:33Z",
