@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1dOCKeOERXkYvNR1CuPawSmcZibtZI1T4/view?usp=sharing",
+    "https://drive.google.com/file/d/1qluUIV8s3y7Z53HLL6poTbv6F9e6iJoc/view?usp=sharing",
   portfolio_repository: "https://github.com/Ivan252512/masterPortfolio",
   githubProfile: "https://github.com/Ivan252512",
 };
@@ -70,9 +70,8 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using React Native",
-        "⚡ Creating application backend in Node, Python, C# and Java",
+        "⚡ Building responsive website front end using JavaScript",
+        "⚡ Creating application backend in Node, Python and NodeJS",
       ],
       softwareSkills: [
         {
@@ -88,13 +87,6 @@ const skills = {
           style: {
             backgroundColor: "#000000",
             color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
           },
         },
         {
