@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1qluUIV8s3y7Z53HLL6poTbv6F9e6iJoc/view?usp=sharing",
+    "https://drive.google.com/file/d/19hSK4UPFmhAKFlBdG5jB0jAiv8W8OZhd/view?usp=drive_link",
   portfolio_repository: "https://github.com/Ivan252512/masterPortfolio",
   githubProfile: "https://github.com/Ivan252512",
 };
@@ -49,18 +49,6 @@ const socialMediaLinks = [
     link: "mailto:ivan31416neda@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/profile.php?id=100076585954997",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/ivan_spp/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -90,13 +78,6 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
@@ -118,7 +99,7 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Setting up streaming jobs from DB to Server or vice-versa on AWS",
       ],
       softwareSkills: [
         {
@@ -217,6 +198,15 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "Data Science & Machine Learning: Making Data-Driven Decisions",
+      subtitle: "data science",
+      logo_path: "MIT_Schwarzman_College_of_Computing_logo.png",
+      certificate_link:
+        "https://olympus1.mygreatlearning.com/certificate/THUSYCVQ",
+      alt_name: "MIT Schwarzman College of Computing",
+      color_code: "#8C151599",
+    },
     {
       title: "AWS Cloud Practitioner",
       subtitle: "cloud",
