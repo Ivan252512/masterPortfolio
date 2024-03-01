@@ -158,7 +158,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/ivanpineda",
+      profileLink: "https://www.hackerrank.com/profile/ivan31416neda",
     },
   ],
 };
