@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/19hSK4UPFmhAKFlBdG5jB0jAiv8W8OZhd/view?usp=drive_link",
+    "https://drive.google.com/file/d/1qOXuu8cwzCnnrVjKw6e7nNSkA9_mlUQV/view?usp=drive_link",
   portfolio_repository: "https://github.com/Ivan252512/masterPortfolio",
   githubProfile: "https://github.com/Ivan252512",
 };
@@ -151,16 +151,7 @@ const skills = {
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/profile/ivan31416neda",
-    },
-  ],
+  competitiveSites: [],
 };
 
 const degrees = {
@@ -208,12 +199,13 @@ const certifications = {
       color_code: "#8C151599",
     },
     {
-      title: "AWS Cloud Practitioner",
-      subtitle: "cloud",
-      logo_path: "aws.png",
+      title: "Diploma in Analytical Introduction to Data Science",
+      subtitle: "data science diploma",
+      logo_path: "sec_ed_ab_fc.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+        "https://educontinua.fciencias.unam.mx/Pagina2023/diplomados/IntrodAnalitica_CienciaDatos/TemarioExtendido_Introd_Analitica_CienciaDatos_EnviodeCambios.pdf",
+      alt_name:
+        "Secretaría de Educación Abierta y Continua de la Facultad de Ciencias-UNAM",
       color_code: "#8C151599",
     },
   ],
@@ -222,7 +214,7 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Jobs",
+  subtitle: "",
   description:
     "I have worked with many companies evolving as a Full Stack Developer and Software Architect. I am very interested in the financial sector.",
   header_image_path: "experience.svg",
@@ -231,13 +223,23 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Backend Developer",
+          company: "Konfío",
+          company_url: "https://konfio.mx",
+          logo_path: "konfio.png",
+          duration: "October 2024 - Current",
+          location: "Ciudad de México, México",
+          description: "I am working on bank products.",
+          color: "#0879bf",
+        },
+        {
           title: "Full Stack Developer",
           company: "GBM",
           company_url: "https://gbm.com",
           logo_path: "gbm.png",
-          duration: "May 2022 - Current",
+          duration: "May 2022 - September 2024",
           location: "Ciudad de México, México",
-          description: "I am working on financial products.",
+          description: "I was working on financial products.",
           color: "#0879bf",
         },
         {
