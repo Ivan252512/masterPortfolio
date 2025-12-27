@@ -20,6 +20,8 @@
   margin: 3px;
   width: auto;
   height: 100px;
+  max-width: 90%; /* Evita que se salga del contenedor */
+  object-fit: contain;
 }
 
 .cert-body {
@@ -107,5 +109,17 @@
 @media (max-width: 768px) {
   .cert-card {
     width: 100%;
+  }
+
+  .logo_img {
+    height: 70px; /* Reducido de 100px a 70px para móviles */
+  }
+
+  .cert-body-title {
+    font-size: 18px;
+  }
+
+  .cert-body-subtitle {
+    font-size: 16px;
   }
 }

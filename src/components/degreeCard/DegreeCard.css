@@ -47,6 +47,7 @@
 .body-header-duration {
   width: 20%;
 }
+
 .duration {
   font-family: "Google Sans Regular";
   font-size: 16px;
@@ -131,7 +132,7 @@
   }
 
   .card-img {
-    width: 200px;
+    width: 120px; /* Reducido de 200px a 120px para móviles */
   }
 
   .card-body {
