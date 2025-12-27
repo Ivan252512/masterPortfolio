@@ -5,11 +5,11 @@ const settings = {
   isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
-//SEO Related settings
+// SEO Related settings
 const seo = {
   title: "Carlos Iván Pineda Santiago",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Software Engineer and aspiring Data Scientist with experience in backend development on AWS and a strong interest in algorithmic trading and data-driven products.",
   og: {
     title: "Carlos Iván Pineda Santiago",
     type: "website",
@@ -17,15 +17,15 @@ const seo = {
   },
 };
 
-//Home Page
+// Home Page
 const greeting = {
   title: "Carlos Iván Pineda Santiago",
   logo_name: "IvanPineda",
   nickname: "",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Software Engineer specializing in backend architectures and data-driven products. I build scalable systems on AWS and develop algorithmic trading strategies at the intersection of Finance and Machine Learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1qOXuu8cwzCnnrVjKw6e7nNSkA9_mlUQV/view?usp=drive_link",
+    "https://drive.google.com/file/d/1LuCKV6-5jiOPAoy8GKfkCq_AZoC_r9sA/view?usp=sharing",
   portfolio_repository: "https://github.com/Ivan252512/masterPortfolio",
   githubProfile: "https://github.com/Ivan252512",
 };
@@ -55,11 +55,12 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Backend & Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using JavaScript",
-        "⚡ Creating application backend in Node, Python and NodeJS",
+        "⚡ Building RESTful APIs and backend services using Python and NodeJS, with a focus on clean architecture and maintainable code.",
+        "⚡ Creating responsive web frontends with JavaScript and modern frameworks to deliver intuitive user experiences for internal tools and customer-facing apps.",
+        "⚡ Integrating external services, financial APIs and data sources into production applications to support analytics, reporting and automation use cases.",
       ],
       softwareSkills: [
         {
@@ -88,18 +89,18 @@ const skills = {
           skillName: "Python",
           fontAwesomeClassname: "simple-icons:python",
           style: {
-            color: "#663399",
+            color: "#3776AB",
           },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud Infrastructure & Data Platforms",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on AWS",
+        "⚡ Experience working with AWS to deploy, operate and monitor backend services, using managed services to keep systems reliable and scalable.",
+        "⚡ Hosting and maintaining applications with integrated relational and NoSQL databases, designing schemas that support transactional workloads and analytics.",
+        "⚡ Setting up data flows and streaming jobs between databases and services on AWS to enable event-driven architectures and real-time data processing.",
       ],
       softwareSkills: [
         {
@@ -131,17 +132,10 @@ const skills = {
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
-        {
           skillName: "Linux",
           fontAwesomeClassname: "simple-icons:linux",
           style: {
-            color: "#326CE5",
+            color: "#FCC624",
           },
         },
       ],
@@ -163,9 +157,9 @@ const degrees = {
       alt_name: "UNAM",
       duration: "2015 - 2019",
       descriptions: [
-        "⚡ I have studied basic Computer Science subjects to understand Geophysical Data.",
-        "⚡ Apart from this, I have done courses on Calculus, Statistics, Algebra and Physics.",
-        "⚡ I have done my social service at Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS) working on Evolutionary programming.",
+        "⚡ Studied Earth and Space Sciences with a strong mathematical and physical background.",
+        "⚡ Completed courses in Calculus, Statistics, Algebra and Physics to support quantitative analysis.",
+        "⚡ Social service at Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS), working on evolutionary programming.",
       ],
       website_link:
         "https://drive.google.com/file/d/1BnWEohbVmzkTIUQe5n5o3C1J5sgucJvu/view?usp=sharing",
@@ -177,9 +171,9 @@ const degrees = {
       alt_name: "IEU",
       duration: "2016 - 2020",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like Algorithms, Databases, Operating Systems, OOP, etc.",
-        "⚡ Apart from this, I have done courses on Blockchain, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I have a basic-intermediate specialization in high performance computing with Python.",
+        "⚡ Studied core software engineering subjects such as Algorithms, Databases, Operating Systems and OOP.",
+        "⚡ Completed additional courses on Blockchain, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ Developed a basic to intermediate specialization in high performance computing with Python.",
       ],
       website_link:
         "https://drive.google.com/file/d/1pizPf-MjvTavBC4qlgPUWFTBFZscDveL/view?usp=sharing",
@@ -191,7 +185,7 @@ const certifications = {
   certifications: [
     {
       title: "Data Science & Machine Learning: Making Data-Driven Decisions",
-      subtitle: "data science",
+      subtitle: "Data Science and Machine Learning",
       logo_path: "MIT_Schwarzman_College_of_Computing_logo.png",
       certificate_link:
         "https://olympus1.mygreatlearning.com/certificate/THUSYCVQ",
@@ -200,10 +194,10 @@ const certifications = {
     },
     {
       title: "Diploma in Analytical Introduction to Data Science",
-      subtitle: "data science diploma",
+      subtitle: "Data Science Diploma",
       logo_path: "sec_ed_ab_fc.png",
       certificate_link:
-        "https://educontinua.fciencias.unam.mx/Pagina2023/diplomados/IntrodAnalitica_CienciaDatos/TemarioExtendido_Introd_Analitica_CienciaDatos_EnviodeCambios.pdf",
+        "https://drive.google.com/file/d/1yHEcXON0aYT5TVTU0TSQbzvTWesiYUsw/view",
       alt_name:
         "Secretaría de Educación Abierta y Continua de la Facultad de Ciencias-UNAM",
       color_code: "#8C151599",
@@ -216,7 +210,7 @@ const experience = {
   title: "Experience",
   subtitle: "",
   description:
-    "I have worked with many companies evolving as a Full Stack Developer and Software Architect. I am very interested in the financial sector.",
+    "I have worked with several companies as a Backend and Full Stack Developer, mainly in the financial and real estate sectors. I am especially interested in data-driven products, algorithmic trading and the intersection of software engineering and data science.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -229,7 +223,8 @@ const experience = {
           logo_path: "konfio.png",
           duration: "October 2024 - Current",
           location: "Ciudad de México, México",
-          description: "I am working on bank products.",
+          description:
+            "Backend development for banking products using Python and NodeJS on AWS, contributing to data-intensive financial services.",
           color: "#0879bf",
         },
         {
@@ -239,7 +234,8 @@ const experience = {
           logo_path: "gbm.png",
           duration: "May 2022 - September 2024",
           location: "Ciudad de México, México",
-          description: "I was working on financial products.",
+          description:
+            "Worked on financial products, implementing backend services and web interfaces for trading and investment platforms.",
           color: "#0879bf",
         },
         {
@@ -247,10 +243,10 @@ const experience = {
           company: "Tuhabi",
           company_url: "https://tuhabi.mx",
           logo_path: "tuhabi.svg",
-          duration: "Nov 2021- May 2022",
+          duration: "Nov 2021 - May 2022",
           location: "Ciudad de México, México",
           description:
-            "I have contribuited to create complete application for Real Estate.",
+            "Contributed to the development of applications for the real estate market, focusing on backend services and integrations.",
           color: "#9b1578",
         },
         {
@@ -261,7 +257,7 @@ const experience = {
           duration: "Mar 2020 - Nov 2021",
           location: "Ciudad de México, México",
           description:
-            "In this job I developed applications with Python and AWS Cloud. Mostly, I used Django, Flask, Elastic Beanstalk and Lambdas.",
+            "Developed applications with Python and AWS Cloud, mainly using Django, Flask, Elastic Beanstalk and Lambda functions.",
           color: "#fc1f20",
         },
       ],
@@ -273,14 +269,14 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Backend projects and deploy them to web applications using cloud infrastructure.",
+    "My projects make use of a wide variety of modern technologies. I focus on backend services, cloud deployment and data-driven or algorithmic use cases, including trading bots and financial data processing.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
   description:
-    "I have worked on and published a few research papers and publications of my own.",
+    "I have worked on and published a few research-oriented pieces and technical content.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -290,7 +286,8 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       name: "Artificial Intelligence Paper",
       createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      description:
+        "Paper written on Artificial Intelligence and large-scale unsupervised learning.",
       url:
         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
@@ -298,7 +295,8 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
       name: "Artificial Intelligence Paper",
       createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      description:
+        "Paper written on Artificial Intelligence and large-scale unsupervised learning.",
       url:
         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
@@ -306,7 +304,8 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
       name: "Artificial Intelligence Paper",
       createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      description:
+        "Paper written on Artificial Intelligence and large-scale unsupervised learning.",
       url:
         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
@@ -314,7 +313,8 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
       name: "Artificial Intelligence Paper",
       createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      description:
+        "Paper written on Artificial Intelligence and large-scale unsupervised learning.",
       url:
         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
@@ -322,7 +322,8 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
       name: "Artificial Intelligence Paper",
       createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      description:
+        "Paper written on Artificial Intelligence and large-scale unsupervised learning.",
       url:
         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
@@ -335,12 +336,12 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "yo.webp",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Python, React, API, Cloud and Opensource Development.",
+      "I am available on most social media platforms. You can message me and I will reply within 24 hours. I can help you with Python, backend development, APIs, cloud architectures and data-oriented projects.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+      "I enjoy writing about technology, software engineering, data and trading to share practical lessons and experiences.",
     link: "https://blogs.ivanpineda.com/",
     avatar_image_path: "blogs_image.svg",
   },
